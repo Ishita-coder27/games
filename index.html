@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Menu By Ishita</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color:rgb(163, 116, 165);
+            background-image: url('bg.jpg'); 
+            background-repeat: no-repeat; 
+            background-size: cover; 
+            background-position:center; 
+            background-size: 100% 100%;
+            height: 100vh;
+            margin: 0;
+        
+            padding: 0;
+        }
+        header {
+            background-color: #5d9097;
+            color: white;
+            padding: 10px 0;
+            font-size: 1.5em;
+        }
+        .menu {
+            margin: 50px auto;
+        }
+        .menu button {
+            background-color: #2ce8b5;
+            color: white;
+            padding: 15px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .menu button:hover {
+            background-color: #630763;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>Ishita's Game Mania</header>
+    <div class="menu">
+    
+        <button onclick="openGame('rock-paper-scissors.html')">Rock-Paper-Scissors</button>
+        <button onclick="openGame('chess.html')">Chess</button>
+        <button onclick="openGame('tic-tac-toe.html')">Tic Tac Toe</button>
+    </div>
+   
+
+    <script>
+        function openGame(gameUrl) {
+            window.location.href = gameUrl;
+        }
+    </script>
+</body>
+</html>
