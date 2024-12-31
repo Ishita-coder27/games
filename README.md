@@ -1,1 +1,2 @@
-# games
+# game mania
+Welcome to our gaming website, where you can enjoy three classic games: Tic Tac Toe, Chess, and Rock Paper Scissors! Whether you're looking for a quick match or a challenging strategy session, we've got you covered. Play Tic Tac Toe for a quick and fun experience, engage in a strategic battle of wits with Chess, or have a light-hearted moment with Rock Paper Scissors. Our user-friendly interface makes it easy to jump in and start playing instantly. Perfect for all ages and skill levels, our website promises hours of entertainment!
